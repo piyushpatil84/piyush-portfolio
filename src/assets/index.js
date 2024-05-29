@@ -15,12 +15,14 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import nextjs from "./tech/nextjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 
 import logixal from './company/logixalLogo.png'
 import bbb from './company/bbb.png'
 import kascom from './company/kascom.png'
+import motion from "./company/motion.png";
 
 import chatgpt from "./chatgpt.png";
 import youtube from "./youtube.png";
@@ -42,11 +44,13 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  nextjs,
   redux,
   tailwind,
   logixal,
   bbb,
   kascom,
+  motion,
   chatgpt,
   youtube,
 };
