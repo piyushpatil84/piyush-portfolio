@@ -25,6 +25,7 @@ import kascom from './company/kascom.png'
 import motion from "./company/motion.png";
 
 import chatgpt from "./chatgpt.png";
+import zomato from "./zomato.png";
 import youtube from "./youtube.png";
 
 export {
@@ -52,5 +53,6 @@ export {
   kascom,
   motion,
   chatgpt,
+  zomato,
   youtube,
 };

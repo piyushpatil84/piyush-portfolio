@@ -17,6 +17,7 @@ import {
   kascom,
   motion,
   chatgpt,
+  zomato,
   youtube,
 } from "../assets";
 
@@ -165,28 +166,6 @@ const experiences = [
 
 const projects = [
   {
-    name: "ChatGPT",
-    description:
-      "React-based ChaGPT Clone, enabling users to search and interact with a conversational AI chatbot for real-time responses to their queries and conversations.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "chatgpt-api",
-        color: "green-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: chatgpt,
-    source_code_link: "https://github.com/piyushpatil84/react-chatGPT",
-    live_demo_link: "https://react-chat-gpt-fawn.vercel.app/",
-  },
-  {
     name: "YouTube Lite",
     description:
       "Build a React-based YouTube Clone with advanced video browsing and category-based content filtering for an immersive user experience in areas like music, gaming etc.",
@@ -207,6 +186,50 @@ const projects = [
     image: youtube,
     source_code_link: "https://github.com/piyushpatil84/react-youtube-clone",
     live_demo_link: "https://react-youtube-lite.netlify.app/",
+  },
+  {
+    name: "Zomato lite",
+    description:
+      "Discover the perfect dining experience with Zomato Lite – a React-based clone offering personalized recommendations and elevate your food exploration.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "material ui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "json",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: zomato,
+    source_code_link: "https://github.com/piyushpatil84/react-zomato-lite",
+    live_demo_link: "https://react-zomato-lite.vercel.app/",
+  },
+  {
+    name: "ChatGPT",
+    description:
+      "React ChaGPT Clone, enabling users to search and interact with a AI chatbot for real-time responses to their queries. Currently undergoing maintenance.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chatgpt-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatgpt,
+    source_code_link: "https://github.com/piyushpatil84/react-chatGPT",
+    live_demo_link: "https://react-chat-gpt-fawn.vercel.app/",
   },
 ];
 
